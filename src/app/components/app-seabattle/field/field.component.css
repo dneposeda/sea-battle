@@ -1,0 +1,35 @@
+.marker {
+    position: absolute;
+    font-size: 11px;
+    z-index: -1;
+}
+
+.marker__row {
+    top: 10px;
+    left: -16px;
+}
+.marker__col {
+    top: -18px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.battlefield-table-wrap {
+    display: inline-block;
+}
+
+.battlefield-table {
+    margin: 0 0 10px;
+    border-collapse: collapse;
+}
+
+.battlefield-cell {
+    border: 1px solid #b4b4ff;
+    padding: 0;
+}
+
+
+
+
+
