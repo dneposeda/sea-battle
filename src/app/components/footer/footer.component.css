@@ -1,0 +1,9 @@
+.footer {
+    border-top: 1px solid #eee;
+    padding: 5px 0 0;
+}
+
+.footer__copyright {
+    font-size: 14px;
+    color: #999;
+}
