@@ -2,8 +2,8 @@
  
     <table class="battlefield-table">
         <tbody>
-            <tr *ngFor="let item of rowY; index as x" class="battlefield-row">
-                <td *ngFor="let item of colX; index as y" class="battlefield-cell">
+            <tr *ngFor="let item of cellArray.rowY; index as x" class="battlefield-row">
+                <td *ngFor="let item of cellArray.colX; index as y" class="battlefield-cell">
                     <cell [x]="x" [y]="y"></cell> 
                 </td>
             </tr>
