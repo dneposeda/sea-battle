@@ -17,4 +17,8 @@ export class CellComponent implements OnInit {
 
   }
 
+  clickCell(){
+    console.log(this.x+1, this.y+1)
+  }
+
 }

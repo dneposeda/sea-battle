@@ -27,6 +27,7 @@
 .battlefield-cell {
     border: 1px solid #b4b4ff;
     padding: 0;
+    cursor: pointer;
 }
 
 
