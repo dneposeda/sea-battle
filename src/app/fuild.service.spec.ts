@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { FuildService } from './fuild.service';
+import { FieldService } from './fuild.service';
 
 describe('FuildService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [FuildService]
+      providers: [FieldService]
     });
   });
 
-  it('should be created', inject([FuildService], (service: FuildService) => {
+  it('should be created', inject([FieldService], (service: FieldService) => {
     expect(service).toBeTruthy();
   }));
 });
